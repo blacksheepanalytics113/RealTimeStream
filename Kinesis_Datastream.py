@@ -5,7 +5,7 @@ import pandas as pd
 import time
 from botocore.exceptions import ClientError
 from airflow.models import Variable
-
+import numpy as np
 def oAuth_example():
     # Step 1: Get the OAuth token
     url = "https://oauth2.bitquery.io/oauth2/token"
