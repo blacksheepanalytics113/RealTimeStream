@@ -16,7 +16,7 @@ def oAuth_example():
     resp = json.loads(response.text)
     access_token = resp['access_token']
 
-    # Step 2: Define the GraphQL subscription query
+
     subscription_query = """
     subscription MyQuery {
       EVM(network: eth) {
